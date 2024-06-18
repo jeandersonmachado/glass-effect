@@ -1,0 +1,16 @@
+{
+    "name": "glasseffect",
+    "version": "1.0.0",
+    "description": "Program to help programmers using glass morphism",
+    "main": "index.js",
+    "scripts": {
+        "build:sass": "sass styles/sass/style.scss styles/css/style.css",
+        "watch:sass": "sass --watch styles/sass/style.scss styles/css/style.css",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Jeanderson",
+    "license": "ISC",
+    "devDependencies": {
+        "sass": "^1.77.5"
+    }
+}

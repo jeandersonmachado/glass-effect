@@ -1,0 +1,91 @@
+.controlls-container {
+    padding: 20px;
+    height: 100vh;
+    width: 22rem;
+    min-width: 22rem;
+    background-color: $primary-color;
+    overflow-y: scroll;
+    direction: rtl;
+
+    .controlls-settings {
+        position: relative;
+        width: 100%;
+        height: auto;
+        direction: ltr;
+
+        span {
+            display: block;
+            margin-bottom: 0.2rem;
+            direction: ltr;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: $font-color;
+        }
+
+        span:first-of-type {
+            display: block;
+
+            h2 {
+                margin-bottom: 1.5rem;
+                letter-spacing: 0.03125rem;
+                font-size: 0.8rem;
+                text-transform: uppercase;
+                font-weight: 700;
+                color: white;
+            }
+        }
+
+
+    }
+
+    .color-settings {
+        div {
+            display: flex;
+            justify-content: space-between;
+
+            div:first-of-type {
+                width: 2.3rem;
+                height: 2.25rem;
+            }
+
+            div:nth-of-type(2) {
+                width: auto;
+                display: flex;
+                margin: 0 0.7rem 0 0.7rem;
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 2.5rem;
+                    color: #888888;
+                    background-color: $secundary-color;
+                    border-radius: 0.5rem 0 0 0.5rem;
+                    font-weight: 700;
+                }
+            }
+
+            div:nth-of-type(3) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: $secundary-color;
+                width: 4rem;
+                height: 2.25rem;
+                border-radius: 0.5rem;
+
+                .clickable-div {
+                    width: 100%;
+                    border: 1px solid #000;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    color: white;
+                    font-weight: 600;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}

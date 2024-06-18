@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script defer src="./scripts/js/app.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="controlls-container">
+            <div class="controlls-settings">
+                <span>
+                    <h2>Settings</h2>
+                </span>
+                <span>Blur</span>
+                <div>
+                    <label for="blur"></label>
+                    <input type="range" id="blur" name="vol" min="0" max="100" value="50">
+                </div>
+                <span>transparency</span>
+                <div>
+                    <label for="transparency"></label>
+                    <input type="range" id="transparency" name="vol" min="0" max="50">
+                </div>
+                <span>Radius</span>
+                <div>
+                    <label for="radius"></label>
+                    <input type="range" id="radius" name="vol" min="0" max="50">
+                </div>
+            </div>
+            <hr style="border: 1px solid #303030;">
+            <div class="color-settings">
+                <span>
+                    <h2>Color</h2>
+                </span>
+                <span>Background</span>
+                <div>
+                    <div>
+                        <label for="background-color"></label>
+                        <input type="color" value="#43da86" id="background-color">
+                    </div>
+                    <div>
+                        <div>#</div>
+                        <input type="text" placeholder="000000" id="background-text">
+                    </div>
+                    <div>
+                        <label for="image-upload"></label>
+                        <input type="file" id="image-upload" accept="image/*" style="display: none;">
+                        <div id="clickable-div" class="clickable-div">
+                            <p>IMG</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card"></div>
+        </div>
+    </main>
+</body>
+
+</html>

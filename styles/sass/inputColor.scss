@@ -1,0 +1,28 @@
+@import 'colors';
+
+.color-settings {
+    direction: ltr;
+}
+
+#background-color {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 2.3rem;
+    height: 2.25rem;
+    background-color: transparent;
+    border: 0.125rem solid $secundary-color;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 0 0.1rem 0 0.1rem;
+}
+
+#background-color::-webkit-color-swatch {
+    border-radius: 0.25rem;
+    border: none;
+}
+
+#background-color::-moz-color-swatch {
+    border-radius: 0.25rem;
+    border: none;
+}
